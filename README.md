@@ -1,6 +1,6 @@
 # Windows 11 Virtual Desktop Enhancer
 
-FORK of windows-desktop-switcher. Same functionality, work on Windows11. That't it.
+FORK of [windows-desktop-switcher](https://github.com/sdias/win-10-virtual-desktop-enhancer). Same functionality, work on Windows11, That't it.
 
 ## Introduction
 
