@@ -1,6 +1,7 @@
 # Windows 11 Virtual Desktop Enhancer
 
-FORK of [windows-desktop-switcher](https://github.com/sdias/win-10-virtual-desktop-enhancer). Same functionality, work on Windows11, That't it.
+FORK of [windows-desktop-switcher](https://github.com/sdias/win-10-virtual-desktop-enhancer). 
+I just replaced [VirtualDesktopAccessor.dll](https://github.com/Ciantic/VirtualDesktopAccessor) for latest version. Now we can use same functionality on Windows 11, wow!
 
 ## Introduction
 
@@ -17,12 +18,10 @@ Windows 11 Virtual Desktop Enhancer is a [AutoHotkey](https://autohotkey.com/) s
 
 - [Installation](docs/installation.md)
 - [Customization](docs/settings.md)
-- [Known issues](docs/known-issues.md)
-- [Request assistance](docs/issue-page.md)
 
 ## Installation
 
-Windows 11 Virtual Desktop Enhancer is extremely easy to install: you just have to download and extract the latest version of the script.
+Windows 11 Virtual Desktop Enhancer is extremely easy to install: you just have to download and extract [the latest version of the script](https://github.com/mogya/win-11-virtual-desktop-enhancer/archive/refs/heads/master.zip).
 
 Please read [the installation page](docs/installation.md) for more detailed instructions.
 
