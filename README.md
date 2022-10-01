@@ -1,7 +1,7 @@
 # Windows 11 Virtual Desktop Enhancer
 
 FORK of [windows-desktop-switcher](https://github.com/sdias/win-10-virtual-desktop-enhancer). 
-I just replaced [VirtualDesktopAccessor.dll](https://github.com/Ciantic/VirtualDesktopAccessor) for latest version. Now we can use same functionality on Windows 11, wow!
+I just replaced [VirtualDesktopAccessor.dll](https://github.com/Ciantic/VirtualDesktopAccessor) for [latest version](https://github.com/skottmckay/VirtualDesktopAccessor). Now we can use same functionality on Windows 11, wow!
 
 ## Introduction
 
