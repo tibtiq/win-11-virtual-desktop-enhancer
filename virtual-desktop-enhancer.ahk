@@ -5,6 +5,7 @@
 #MenuMaskKey vk07
 #UseHook
 ; Credits to Ciantic: https://github.com/Ciantic/VirtualDesktopAccessor
+; Credits to lu0: https://github.com/lu0/VirtualDesktopAccessor
 
 #Include, %A_ScriptDir%\libraries\read-ini.ahk
 #Include, %A_ScriptDir%\libraries\tooltip.ahk
@@ -17,7 +18,7 @@ DetectHiddenWindows, On
 hwnd := WinExist("ahk_pid " . DllCall("GetCurrentProcessId","Uint"))
 hwnd += 0x1000 << 32
 
-hVirtualDesktopAccessor := DllCall("LoadLibrary", "Str", A_ScriptDir . "\libraries\virtual-desktop-accessor.dll", "Ptr")
+hVirtualDesktopAccessor := DllCall("LoadLibrary", "Str", A_ScriptDir . "\libraries\VirtualDesktopAccessor.dll", "Ptr")
 
 global GoToDesktopNumberProc := DllCall("GetProcAddress", Ptr, hVirtualDesktopAccessor, AStr, "GoToDesktopNumber", "Ptr")
 global RegisterPostMessageHookProc := DllCall("GetProcAddress", Ptr, hVirtualDesktopAccessor, AStr, "RegisterPostMessageHook", "Ptr")
